@@ -27,7 +27,18 @@ Obtener una pelicula: /ver/{id}
 
 #Post
 
+Json debe de estar conformado con el siguiente formato (sin el ID ya que es autoincremental)
+
+{
+    "nombre":"Ejemplo",
+    "paisDeOrigen":"Pais",
+    "fechaDeEstreno":"2021-01-01T00:00:00.000Z",
+    "director":"Nombre y Apellido",
+    "reparto":"Nombre y Apellido"
+}
+
 Crear una pelicula: /crear
+
 
 
 #Put 
@@ -35,13 +46,11 @@ Crear una pelicula: /crear
 Json debe estar conformado con el siguiente formato:
 
 {
-
     "nombre":"Ejemplo",
     "paisDeOrigen":"Pais",
     "fechaDeEstreno":"2021-01-01T00:00:00.000Z",
     "director":"Nombre y Apellido",
     "reparto":"Nombre y Apellido"
-    
 }
 
 Modificar una pelicula: /editar/{id}
