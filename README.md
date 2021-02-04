@@ -32,13 +32,16 @@ Crear una pelicula: /crear
 
 #Put 
 
-Json debe estar conformado de la siguiente forma:
+Json debe estar conformado de la siguiente formato:
+
 {
+
     "nombre":"Ejemplo",
     "paisDeOrigen":"Pais",
     "fechaDeEstreno":"2021-01-01T00:00:00.000Z",
     "director":"Nombre y Apellido",
     "reparto":"Nombre y Apellido"
+    
 }
 
 Modificar una pelicula: /editar/{id}
