@@ -32,7 +32,7 @@ Crear una pelicula: /crear
 
 #Put 
 
-Json debe estar conformado de la siguiente formato:
+Json debe estar conformado con el siguiente formato:
 
 {
 
