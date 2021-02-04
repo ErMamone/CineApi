@@ -1,5 +1,5 @@
 # CineApi
-# Se realiza Script para montar la base de datos rapida y poder realizar pruebas de la API
+# Se realiza Script para montar la base de datos rapida y poder realizar pruebas de la API. El mismo se encuentra en CineApi/peliculas.sql
 
 Una vez ejectuado el script sobre localhost:3306 se puede realizar la instalacion de la API
 
